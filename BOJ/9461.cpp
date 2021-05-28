@@ -1,5 +1,3 @@
-// 9461번 파도반 수열
-
 #include <iostream>
 
 long long dp[101] = { 1, 1, 1, 1, 2, 2, };
