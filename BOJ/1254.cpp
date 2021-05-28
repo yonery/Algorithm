@@ -1,5 +1,3 @@
-//1254번 팰린드롬 만들기
-
 #include <iostream>
 #include <string.h>
 using namespace std;
