@@ -1,4 +1,4 @@
-// 10844¹ø ½¬¿î °è´Ü ¼ö
+// 10844ë²ˆ ì‰¬ìš´ ê³„ë‹¨ ìˆ˜
 #include <iostream>
 using namespace std;
 #define mod 1000000000
@@ -8,9 +8,9 @@ int main() {
 	int N;
 	scanf("%d", &N);
 
-	//N¹øÂ° ¼ö´Â N-1¹øÂ° ¼ö¿¡ ÀÇÇØ °áÁ¤µÊ.
-	//N¹øÂ° ¼ö i°¡ 0ÀÌ¸é N-1ÀÇ i´Â 1, 9ÀÌ¸é N-1ÀÇ i´Â 8¹Û¿¡ ¿Ã ¼ö ¾øÀ½.
-	//NÀÌ ³ª¸ÓÁö ¹üÀ§´Ì i´Â  N-1Àº i-1°ú  i+1ÀÌ ¿Ã ¼ö ÀÖÀ½.
+	//Në²ˆì§¸ ìˆ˜ëŠ” N-1ë²ˆì§¸ ìˆ˜ì— ì˜í•´ ê²°ì •ë¨.
+	//Në²ˆì§¸ ìˆ˜ iê°€ 0ì´ë©´ N-1ì˜ iëŠ” 1, 9ì´ë©´ N-1ì˜ iëŠ” 8ë°–ì— ì˜¬ ìˆ˜ ì—†ìŒ.
+	//Nì´ ë‚˜ë¨¸ì§€ ë²”ìœ„ëŠ¬ iëŠ”  N-1ì€ i-1ê³¼  i+1ì´ ì˜¬ ìˆ˜ ìžˆìŒ.
 
 	for (int i = 0; i < 10; i++)
 		dp[1][i] = 1;
