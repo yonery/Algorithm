@@ -1,4 +1,4 @@
-//1965¹ø »óÀÚ³Ö±â
+//1965ë²ˆ ìƒìžë„£ê¸°
 #include <iostream>
 using namespace std;
 
@@ -16,7 +16,7 @@ int main() {
 		scanf("%d", &p[i]);
 
 	dp[1] = 1;
-	//N¹øÂ° »óÀÚ´Â Nº¸´Ù ¾ÕÀÌ¸ç ÀÚ±âº¸´Ù ÀÛÀº ¼öÀÇ ÃÖ´ë»óÀÚÀÇ ¼ö + 1
+	//Në²ˆì§¸ ìƒìžëŠ” Në³´ë‹¤ ì•žì´ë©° ìžê¸°ë³´ë‹¤ ìž‘ì€ ìˆ˜ì˜ ìµœëŒ€ìƒìžì˜ ìˆ˜ + 1
 	for (int i = 2; i <= N; i++) {
 		int m = 0;
 		for (int j = 1; j < i; j++) {
