@@ -1,3 +1,5 @@
+# 84 - Largest Rectangle in Histogram  https://leetcode.com/problems/largest-rectangle-in-histogram/
+
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         if not len(heights):
