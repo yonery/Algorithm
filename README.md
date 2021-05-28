@@ -1,7 +1,7 @@
 # Algorithm 
-Baekjoon-Online-Judge   C++/python 
-Leetcode                python
-Softeer                 python
-Programmers             python
-SWEA                    python
+Baekjoon-Online-Judge       [C++/python] <br>
+Leetcode                    [python]<br>
+Softeer                     [python]<br>
+Programmers                 [python]<br>
+SWEA                        [python]<br>
 
