@@ -6,12 +6,12 @@ using namespace std;
 int N;
 int arr[MAX];
 
-//¹öºíÁ¤·Ä
+//ë²„ë¸”ì •ë ¬
 void bubble(int N) {
 	for (int i = 0; i < N-1; i++) {
 		for (int j = N - 1; j > i; j--) {
 			if (arr[j-1] > arr[j]) {
-				//swapÀÌ¿ë
+				//swapì´ìš©
 				int temp = arr[j-1];
 				arr[j-1] = arr[j];
 				arr[j] = temp;
@@ -20,7 +20,7 @@ void bubble(int N) {
 	}
 
 }
-//»ğÀÔÁ¤·Ä
+//ì‚½ì…ì •ë ¬
 void insert(int N) {
 	int* b = new int[N];
 	b[0] = arr[0];
@@ -42,7 +42,7 @@ void insert(int N) {
 	free(b);
 
 }
-//¼±ÅÃÁ¤·Ä
+//ì„ íƒì •ë ¬
 void select(int N) {
 	for (int i = 0; i < N; i++) {
 		int min_idx = i;
@@ -60,7 +60,7 @@ void select(int N) {
 	}
 
 }
-//ÇÕº´Á¤·Ä
+//í•©ë³‘ì •ë ¬
 void merge_sort(int s, int m, int e, int arr[]) {
 	int* a = new int[N];
 	int index=s, l=s, r=m+1;
@@ -98,7 +98,7 @@ void dnc(int s, int e, int arr[]) {
 void merge(int N) {
 	dnc(0, N-1, arr);
 }
-//ÄüÁ¤·Ä
+//í€µì •ë ¬
 int partition(int s, int e, int arr[]) {
 	int p, l, r;
 
@@ -122,10 +122,10 @@ int main() {
 		cin >> arr[i];
 	}
 
-	//Á¤·Ä
+	//ì •ë ¬
 	quick(N);
 
-	//Ãâ·Â
+	//ì¶œë ¥
 	for (int i = 0; i < N; i++)
 		cout << arr[i] << "\n";
 
