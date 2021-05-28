@@ -1,4 +1,7 @@
-# Algorithm 백준 문제 풀기 (by. C++)
-Baekjoon-Online-Judge C++ Algorithm
-
+# Algorithm 
+Baekjoon-Online-Judge   C++/python 
+Leetcode                python
+Softeer                 python
+Programmers             python
+SWEA                    python
 
