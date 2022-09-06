@@ -6,6 +6,9 @@
 3. 그렇지 않을 경우 N은 +1을 할 수 있는데 다음 제곱근까지의 차이는 (n+1)*(n+1) - N 이 되므로 일일히 계산하지 않고 바로 횟수를 더해줄 수 있음
 4. 주어진 N은 2 <= N <= 10^12 로 int형의 범위를 벗어나기에 N과 n은 long long 형으로 선언해야함 
 
+자료형 참고
+https://dojang.io/mod/page/view.php?id=45
+
 */
 
 #include <iostream>
