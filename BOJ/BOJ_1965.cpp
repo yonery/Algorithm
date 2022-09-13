@@ -1,4 +1,4 @@
-//1965번 상자넣기
+// BOJ 1965번 상자넣기 (dp)
 #include <iostream>
 using namespace std;
 
