@@ -1,3 +1,5 @@
+// BOJ 1309번 동물원 (dp)
+
 #include <iostream>
 #define mod 9901
 int dp[100001][4] = { 0 };
