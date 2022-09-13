@@ -1,4 +1,4 @@
-// 2156번 포도주 시식
+// BOJ 2156번 포도주 시식 (DP)
 #include <iostream>
 #include <math.h>
 using namespace std;
