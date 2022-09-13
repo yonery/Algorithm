@@ -1,4 +1,5 @@
-//1699번 제곱수의 합
+// BOJ 1699번 제곱수의 합 (dp)
+
 #include <iostream>
 #include <math.h>
 using namespace std;
