@@ -1,4 +1,4 @@
-# 	2212 - 센서  https://www.acmicpc.net/problem/2212
+# BOJ 2212 - 센서  https://www.acmicpc.net/problem/2212
 N = int(input())
 K = int(input())
 
