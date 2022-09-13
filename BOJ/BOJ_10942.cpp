@@ -1,4 +1,4 @@
-// 10942번 팰린드롬
+// 10942번 팰린드롬 (dp)
 #include <iostream>
 using namespace std;
 
