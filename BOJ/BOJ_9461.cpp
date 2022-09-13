@@ -1,3 +1,5 @@
+// BOJ 9461번 (DP)
+
 #include <iostream>
 
 long long dp[101] = { 1, 1, 1, 1, 2, 2, };
