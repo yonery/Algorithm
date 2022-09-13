@@ -1,4 +1,4 @@
-// 10844번 쉬운 계단 수
+// 10844번 쉬운 계단 수 (dp)
 #include <iostream>
 using namespace std;
 #define mod 1000000000
