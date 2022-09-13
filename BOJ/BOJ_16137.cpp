@@ -1,4 +1,4 @@
-// 16137번 견우외 직녀 (BFS)
+// BOJ 16137번 견우외 직녀 (BFS)
 // https://www.acmicpc.net/problem/16137
 
 
