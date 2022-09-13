@@ -1,4 +1,4 @@
-// BOJ 9461번 (DP)
+// BOJ 9461번 파도반 수열 (DP)
 
 #include <iostream>
 
