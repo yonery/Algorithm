@@ -1,4 +1,4 @@
-// 2133번 타일채우기
+// BOJ 2133번 타일채우기 (DP)
 
 #include <iostream>
 
