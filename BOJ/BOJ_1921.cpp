@@ -1,4 +1,5 @@
-// 1921번 연속합
+// BOJ 1921번 연속합 (dp)
+
 #include <iostream>
 #include <math.h>
 using namespace std;
