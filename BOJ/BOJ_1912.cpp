@@ -1,4 +1,4 @@
-// BOJ 1921번 연속합 (dp)
+// BOJ 1912번 연속합 (dp)
 
 #include <iostream>
 #include <math.h>
