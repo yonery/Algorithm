@@ -1,3 +1,5 @@
+// BOJ 1254 팰린드롬 만들기 (C++)
+
 #include <iostream>
 #include <string.h>
 using namespace std;
