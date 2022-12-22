@@ -1,4 +1,4 @@
-// BOJ 1003 피보나치 (C++)
+// BOJ 1003 피보나치 함수 (C++)
 
 #include<iostream>
 using namespace std;
