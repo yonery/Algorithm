@@ -1,4 +1,4 @@
-# 1068 트리
+# 1068 트리 (python)
 
 n = int(input())
 arr = list(map(int, input().split()))
